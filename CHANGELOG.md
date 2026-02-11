@@ -1438,16 +1438,3 @@ This is the last version with unobfuscated source code. Subsequent versions use 
 *Commit: `c607211a`*
 
 ---
-
-## Add comprehensive CHANGELOG.md with commit-by-commit analysis
-
-**Date:** February 11, 2026
-**Changes:** +1499 / -0 lines
-
-### ✨ New Features/Content
-
-- New file: CHANGELOG.md
-
-*Commit: `c85ab227`*
-
----
