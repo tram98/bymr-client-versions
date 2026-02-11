@@ -155,7 +155,7 @@ Updates following the Inferno release:
 
 Significant version increment with:
 - Backend improvements
-- Decrypted client versions (v3798, v4321)
+- Decrypted client versions (v128.3798, v128.4321)
 - Preparation for Map Room 3
 
 <sub>Commits: `bd56aadb` through `7f990ac5`</sub>
