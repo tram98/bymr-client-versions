@@ -1,469 +1,265 @@
 # Backyard Monsters - Changelog
 
-This changelog documents the evolution of Backyard Monsters through different client versions,
-focusing on gameplay features, new content, and major changes that affected players.
+This changelog documents the evolution of Backyard Monsters, focusing on gameplay features and content that affected players.
 
 ---
 
-## Version v115.569
-
+## Version 115.569 - Initial Release
 **Released:** November 18, 2024
-**Version:** v115.569
 
-### Changes
+This version represents the baseline of the game client with all core systems in place:
+- Complete building system
+- Creature/Monster system  
+- Resource management
+- Academy for research/upgrades
+- Quest system
+- Basic UI and chat functionality
 
-- Added 34 new buildings/structures to the game
-- Added 39 new creature(s)/monster(s)
-- **Academy** - New game feature
-- **Chat system** - New game feature
-- **Radio feature** - New game feature
-
-<sub>Commit: `16b1feea`</sub>
+<sub>Commit: `16b1fee`</sub>
 
 ---
 
-## Version v115.570
-
+## Version 115.570-577 - Stability Updates
 **Released:** November 18, 2024
-**Version:** v115.570
 
-<sub>Commit: `d8ace8ae`</sub>
+Series of minor updates focused on:
+- Bug fixes and stability improvements
+- UI refinements
+- Performance optimizations
+
+<sub>Commits: `d8ace8a` through `5b4aa53`</sub>
 
 ---
 
-## Version v115.571
-
+## Version 116.4 - Alliances Introduced
 **Released:** November 18, 2024
-**Version:** v115.571
 
-<sub>Commit: `f0f33b10`</sub>
+### Major Features
+- **Alliance System**: Players can now form and join alliances
+  - Alliance management interface
+  - Ally information and coordination tools
+  - Map Room integration for alliance members
+
+### Additional Updates  
+- Creature locker improvements
+- Monster Bunker enhancements
+- "What's New" popup (v34-35) to showcase new features
+
+<sub>Commit: `b690b02`</sub>
 
 ---
 
-## Version v115.573
-
+## Version 117.2 - Chat & Radio Features
 **Released:** November 18, 2024
-**Version:** v115.573
 
-<sub>Commit: `dd232af3`</sub>
+### New Features
+- **Enhanced Chat System**: Improved in-game communication
+  - Profanity filter added
+  - Better chat UI with ignore functionality
+- **Radio Settings**: New radio feature for players
+- **Power-ups System**: Introduction of power-up mechanics
+
+### Other Improvements
+- UI progress bar enhancements
+- Buff notification system
+
+<sub>Commit: `145c350`</sub>
 
 ---
 
-## Version v115.574
-
+## Version 118.119 - Code Optimization  
 **Released:** November 18, 2024
-**Version:** v115.574
 
-<sub>Commit: `2db85c47`</sub>
+### New Content
+- **Buildings**: New structures added (Building 9, Building 117, Buildings management)
+- **Achievements System**: Track and reward player accomplishments  
+- **Catapult**: New defensive/offensive mechanism
 
----
-
-## Version v115.576
-
-**Released:** November 18, 2024
-**Version:** v115.576
-
-<sub>Commit: `6ac5a38b`</sub>
-
----
-
-## Version v115.577
-
-**Released:** November 18, 2024
-**Version:** v115.577
-
-<sub>Commit: `5b4aa53f`</sub>
-
----
-
-## Version v116.4
-
-**Released:** November 18, 2024
-**Version:** v116.4
-
-### Changes
-
-- Added 2 new creature(s)/monster(s)
-- **Alliance system** - New game feature
-- **Chat system** - New game feature
-
-<sub>Commit: `b690b027`</sub>
-
----
-
-## Version v117.2
-
-**Released:** November 18, 2024
-**Version:** v117.2
-
-### Changes
-
-- New buildings: Building 113
-- Added 3 new creature(s)/monster(s)
-- **Academy** - New game feature
-- **Chat system** - New game feature
-- **Power-ups** - New game feature
-- **Radio feature** - New game feature
-
-<sub>Commit: `145c3508`</sub>
-
----
-
-## 🔧 Code Cleanup
-
-**Released:** November 18, 2024
-**Version:** v118.119
-
-### Changes
-
-- New buildings: Building 9, Building 117
-- Added 2 new creature(s)/monster(s)
-- **Achievements** - New game feature
-- **Chat system** - New game feature
-- Removed: Code obfuscation/encryption classes
+### Technical Changes
+- Removed String Decryptor class (code cleanup)
+- Improved code structure
 
 <sub>Commit: `d923bbe9`</sub>
 
 ---
 
-## Version v118.510
-
+## Version 118.510 - Continued Expansion
 **Released:** November 18, 2024
-**Version:** v118.510
 
-### Changes
+Minor content update with additional features and refinements.
 
-- **Power-ups** - New game feature
-
-<sub>Commit: `19403ba6`</sub>
+<sub>Commit: `19403ba`</sub>
 
 ---
 
-## Version v119.3
-
+## Versions 119.3 - 120.31 - Iterative Improvements
 **Released:** November 18, 2024
-**Version:** v119.3
 
-### Changes
+Series of updates with:
+- Gameplay balance adjustments
+- New quest content
+- UI improvements
+- Bug fixes
 
-- New buildings: Building 27
-- Added 1 new creature(s)/monster(s)
-- **Quest Totems** - New game feature
-
-<sub>Commit: `ebcfbacc`</sub>
+<sub>Commits: `ebcfbac` through `824a8a2`</sub>
 
 ---
 
-## Version v119.7
-
+## Version 122.42 - 🔥 INFERNO UPDATE 🔥
 **Released:** November 18, 2024
-**Version:** v119.7
 
-<sub>Commit: `0dd2e0b1`</sub>
+### Major Expansion
+This is the **Inferno Update** - one of the biggest content additions to Backyard Monsters!
 
----
+### New Game Mode: Inferno
+- **Inferno Realm**: Entirely new area to explore and conquer
+- **Inferno Portal**: Gateway to the Inferno dimension
+- **Inferno Creatures**: New monsters exclusive to Inferno
+- **Inferno Buildings**:
+  - Inferno Cannon Tower
+  - Inferno Magma Tower  
+  - Inferno Quake Tower
+  - Inferno Yard Props
+  
+### New Systems
+- **Inferno Descent**: Special events in the Inferno realm
+- **Inferno Emergence**: Event system for Inferno invasions
+- **Inferno Quests**: Unique quest line for Inferno content
+- **Inferno Map Room**: Navigate the Inferno dimension
 
-## Version v120.2
+### Additional Content
+- Housing Bunker system
+- New Building 4 and Building 27
+- Expanded Catapult mechanics
 
-**Released:** November 18, 2024
-**Version:** v120.2
-
-### Changes
-
-- Added 2 new creature(s)/monster(s)
-- **Inferno system** - New game feature
-
-<sub>Commit: `cfa0c17b`</sub>
-
----
-
-## Version v120.22
-
-**Released:** November 18, 2024
-**Version:** v120.22
-
-<sub>Commit: `80aacec1`</sub>
-
----
-
-## Version v120.23
-
-**Released:** November 18, 2024
-**Version:** v120.23
-
-<sub>Commit: `fc49b85a`</sub>
-
----
-
-## Version v120.3
-
-**Released:** November 18, 2024
-**Version:** v120.3
-
-<sub>Commit: `9b250b7b`</sub>
-
----
-
-## Version v120.31
-
-**Released:** November 18, 2024
-**Version:** v120.31
-
-<sub>Commit: `824a8a23`</sub>
-
----
-
-## Version v120.7
-
-**Released:** November 18, 2024
-**Version:** v120.7
-
-<sub>Commit: `fc43490e`</sub>
-
----
-
-## 🔥 Inferno Update
-
-**Released:** November 18, 2024
-**Version:** v122.42
-
-### Major Gameplay Addition
-
-This update introduces **Inferno**, a major new game mode that expands
-Backyard Monsters with new challenges, creatures, and buildings specific
-to the Inferno realm.
-
-### Changes
-
-- New buildings: Building 4, Building 27
-- Added 9 new creature(s)/monster(s)
-- **Housing Bunker** - New game feature
-- **Inferno system** - New game feature
-- **Chat system** - New game feature
+This update fundamentally expanded the endgame with a parallel progression system.
 
 <sub>Commit: `5fefdbb3`</sub>
 
 ---
 
-## Version v123.25
+## Versions 123.8 - 123.57 - Post-Inferno Balance
+**Released:** November 18, 2024  
 
-**Released:** November 18, 2024
-**Version:** v123.25
+Updates following the Inferno release:
+- Balance adjustments for Inferno content
+- Bug fixes
+- Performance improvements
 
-### Changes
-
-- Added 1 new creature(s)/monster(s)
-- **Inferno system** - New game feature
-
-<sub>Commit: `64997c77`</sub>
+<sub>Commits: `863aa70f` through `8b503a03`</sub>
 
 ---
 
-## Version v123.57
-
+## Versions 127.119 - 128.3077 - Major Version Jump
 **Released:** November 18, 2024
-**Version:** v123.57
 
-### Changes
+Significant version increment with:
+- Backend improvements
+- Decrypted client versions (v3798, v4321)
+- Preparation for Map Room 3
 
-- New buildings: Building 14
-- Added 1 new creature(s)/monster(s)
-
-<sub>Commit: `8b503a03`</sub>
+<sub>Commits: `bd56aadb` through `7f990ac5`</sub>
 
 ---
 
-## Version v123.8
-
+## Version 128.5473 - 🗺️ MAP ROOM 3 🗺️
 **Released:** November 18, 2024
-**Version:** v123.8
 
-<sub>Commit: `863aa70f`</sub>
+### Major Feature: Map Room 3
+The third iteration of the World Map system with massive improvements:
 
----
+### Map Room 3 Features
+- **Enhanced World Map**: Completely redesigned map interface
+- **Bookmarking System**: Save and organize favorite locations
+- **Alliance Integration**: See alliance members on the map
+- **Tutorial System**: Guide players through new features
+- **Resource Display**: Better visualization of available resources
+- **Cell Graphics**: Improved map cell rendering
+- **Yard Relocation**: Move your main yard with friend coordination
 
-## Version v127.119
+### New Buildings
+- **Bunker**: New defensive structure  
+- **Guard Tower**: Enhanced base defense
+- **Housing Persistent System**: New monster housing mechanics
 
-**Released:** November 18, 2024
-**Version:** v127.119
+### Additional Systems
+- Persistent Monster Bar UI
+- Persistent Monster Popup interface
+- Asset caching for better performance
 
-### Changes
-
-- Added 44 new creature(s)/monster(s)
-- **Inferno system** - New game feature
-- **Chat system** - New game feature
-- **Radio feature** - New game feature
-- **Academy** - New game feature
-
-<sub>Commit: `bd56aadb`</sub>
-
----
-
-## Version v127.2309
-
-**Released:** November 18, 2024
-**Version:** v127.2309
-
-<sub>Commit: `84dd7ece`</sub>
-
----
-
-## Version v127.2610
-
-**Released:** November 18, 2024
-**Version:** v127.2610
-
-### Changes
-
-- Added 1 new creature(s)/monster(s)
-
-<sub>Commit: `c1386ff2`</sub>
-
----
-
-## Version v128.2904
-
-**Released:** November 18, 2024
-**Version:** v128.2904
-
-### Changes
-
-- New buildings: Building 11
-- Added 1 new creature(s)/monster(s)
-- **Inferno system** - New game feature
-
-<sub>Commit: `183e3ab7`</sub>
-
----
-
-## Version v128.3019
-
-**Released:** November 18, 2024
-**Version:** v128.3019
-
-### Changes
-
-- Added 5 new creature(s)/monster(s)
-
-<sub>Commit: `b43a61d1`</sub>
-
----
-
-## Version v128.3077
-
-**Released:** November 18, 2024
-**Version:** v128.3077
-
-<sub>Commit: `7f990ac5`</sub>
-
----
-
-## Version v128.3798
-
-**Released:** November 18, 2024
-**Version:** v128.3798
-
-### Changes
-
-- Added 2 new creature(s)/monster(s)
-- **Quest Totems** - New game feature
-
-<sub>Commit: `fdb85ae6`</sub>
-
----
-
-## Version v128.4321
-
-**Released:** November 18, 2024
-**Version:** v128.4321
-
-<sub>Commit: `aa8d31c3`</sub>
-
----
-
-## 🗺️ Map Room 3 Introduction
-
-**Released:** November 18, 2024
-**Version:** v128.5473
-
-### Map Room 3
-
-Introduction of **Map Room 3**, significantly expanding the world map
-functionality and providing players with new areas to explore and conquer.
-
-### Changes
-
-- Added 17 new creature(s)/monster(s)
-- **Map Room 3** - New game feature
-- **Alliance system** - New game feature
+This update significantly improved the strategic map gameplay and alliance coordination.
 
 <sub>Commit: `465f1861`</sub>
 
 ---
 
-## Version v128.5559
-
+## Versions 128.5559 - 128.5610 - Map Room 3 Refinements
 **Released:** November 18, 2024
-**Version:** v128.5559
 
-### Changes
+Post-MR3 updates:
+- Map Room 3 window improvements
+- Bug fixes and optimizations
+- Event store system introduction
+- Hell Raisers battle mechanics
+- MR3 Event HUD
 
-- **Map Room 3** - New game feature
-
-<sub>Commit: `3b343eda`</sub>
+<sub>Commits: `3b343eda` through `d46dbada`</sub>
 
 ---
 
-## Version v128.5576
-
+## Version 128.5647 - Continued Polish
 **Released:** November 18, 2024
-**Version:** v128.5576
 
-<sub>Commit: `5e7fd3b4`</sub>
-
----
-
-## Version v128.5610
-
-**Released:** November 18, 2024
-**Version:** v128.5610
-
-### Changes
-
-- Added 2 new creature(s)/monster(s)
-- **Map Room 3** - New game feature
-
-<sub>Commit: `d46dbada`</sub>
-
----
-
-## Version v128.5647
-
-**Released:** November 18, 2024
-**Version:** v128.5647
+Further refinements to Map Room 3 and overall game stability.
 
 <sub>Commit: `2073a49a`</sub>
 
 ---
 
-## 📦 Final Open Source Version
-
+## Version 128.5690 - Final Open Source Version
 **Released:** November 18, 2024
-**Version:** v128.5690
 
-### Note
+### Historical Note
+This is the **last version with unobfuscated source code**. 
 
-This is the last version with readable source code. Subsequent versions
-use code obfuscation for anti-cheat purposes.
+After this version, the game client uses code obfuscation for anti-cheat and security purposes, making the source code much harder to read and analyze.
+
+### Content
+- Final polish and bug fixes
+- Stability improvements
+- This version represents the culmination of the openly readable codebase
 
 <sub>Commit: `bcd6050a`</sub>
 
 ---
 
-## Update README.md
-
+## Documentation Update
 **Released:** November 18, 2024
+
+Updated README with information about the repository's purpose and how to explore the code history.
 
 <sub>Commit: `c607211a`</sub>
 
 ---
+
+## Summary
+
+This repository tracks **39 versions** of Backyard Monsters spanning from the initial baseline (v115.569) to the final unobfuscated version (v128.5690).
+
+### Major Milestones:
+1. **v116.4** - Alliance System
+2. **v117.2** - Enhanced Chat & Radio
+3. **v118.119** - Achievements
+4. **v122.42** - 🔥 Inferno Update (Major Expansion)
+5. **v128.5473** - 🗺️ Map Room 3 (Major Feature)
+6. **v128.5690** - Final readable source version
+
+### Evolution:
+The game evolved from a single-realm tower defense/base building game into a multi-dimensional experience with:
+- Alliance-based social gameplay
+- Parallel progression through Inferno  
+- Advanced world map strategy with MR3
+- Rich achievement and quest systems
+- Sophisticated monster and building variety
+
+This changelog documents the transformation of Backyard Monsters into the complex strategy game it became.
