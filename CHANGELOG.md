@@ -244,7 +244,7 @@ Updated README with information about the repository's purpose and how to explor
 
 ## Summary
 
-This repository tracks **39 versions** of Backyard Monsters spanning from the initial baseline (v115.569) to the final unobfuscated version (v128.5690).
+This repository contains **39 commits** tracking the evolution of Backyard Monsters from v115.569 to v128.5690. This changelog groups them into major release milestones for easier reading.
 
 ### Major Milestones:
 1. **v116.4** - Alliance System
