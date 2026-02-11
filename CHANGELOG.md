@@ -71,7 +71,7 @@ Series of minor updates focused on:
 **Released:** November 18, 2024
 
 ### New Content
-- **Buildings**: New structures added (Building 9, Building 117, Buildings management)
+- **New Buildings**: Additional defensive and offensive structures
 - **Achievements System**: Track and reward player accomplishments  
 - **Catapult**: New defensive/offensive mechanism
 
