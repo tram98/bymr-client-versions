@@ -67,16 +67,11 @@ This changelog tracks the evolution of the SWF client through different versions
 
 ---
 
-## ✨ Version v115.571 - New Features
+## 🔧 Version v115.571 - Patches
 
 **Version:** v115.571
 **Date:** November 18, 2024
 **Changes:** +167 / -174 lines
-
-### ✨ New Features/Content
-
-- New file: scripts/BFOUNDATION.as
-- New file: scripts/POPUPS.as
 
 ### 🏗️ Architecture Updates
 
@@ -219,17 +214,14 @@ This changelog tracks the evolution of the SWF client through different versions
 
 ### ✨ New Features/Content
 
-- New file: scripts/LOGGER.as
-- New file: scripts/MARKETING.as
 - Added Map Room feature: scripts/all_fla/MapRoomCellNameBar_327.as
 - Added Map Room feature: scripts/all_fla/MapRoomCellNameBar_barBG_331.as
 - Added Map Room feature: scripts/all_fla/MapRoomCellNameBar_barbar_333.as
 - Added Alliance system: scripts/com/monsters/alliances/ALLIANCES.as
 - Added Alliance system: scripts/com/monsters/alliances/AllyInfo.as
-- New file: scripts/com/monsters/chat/CS_SmartFoxServer2X.as
-- New file: scripts/com/monsters/chat/ChatEvent.as
-- New file: scripts/com/monsters/mailbox/Thread.as
-- *...and 10 more files*
+- New file: scripts/popup_whatsnew34.as
+- New file: scripts/popup_whatsnew35_v1.as
+- New file: scripts/popup_whatsnew35_v2.as
 
 ### 🏗️ Architecture Updates
 
@@ -257,17 +249,17 @@ This changelog tracks the evolution of the SWF client through different versions
 
 ### ✨ New Features/Content
 
-- New file: scripts/ACADEMYPOPUP.as
-- New file: scripts/ATTACK.as
-- New file: scripts/BTOWER.as
-- Added building: scripts/BUILDING113.as
-- Added creature: scripts/CREATURELOCKERPOPUP.as
 - New file: scripts/ChatUI_fla/ChatBox_ignoreBtn_20.as
-- New file: scripts/ERRORMESSAGE.as
-- New file: scripts/GUARDIANCAGEPOPUP.as
-- New file: scripts/GUARDIANSELECTPOPUP.as
-- New file: scripts/HATCHERYCCPOPUP.as
-- *...and 27 more files*
+- New file: scripts/POWERUPS.as
+- New file: scripts/RADIOSETTINGSPOPUP_CLIP.as
+- New file: scripts/all_fla/ui_progressbars_descbg_44.as
+- New file: scripts/bubblepopupBuff.as
+- New file: scripts/bubblepopupUpBuff_CLIP.as
+- New file: scripts/com/monsters/chat/ProfanityFilter.as
+- New file: scripts/com/monsters/radio/RADIOSETTINGSPOPUP.as
+- New file: scripts/popup_whatsnew36.as
+- New file: scripts/popup_whatsnew37.as
+- *...and 4 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -304,16 +296,16 @@ Removal of the String Decryptor class from the codebase.
 ### ✨ New Features/Content
 
 - New file: scripts/ACHIEVEMENTS.as
-- Added building: scripts/BUILDING117.as
-- Added building: scripts/BUILDING9.as
-- Added building: scripts/BUILDINGS.as
-- New file: scripts/CATAPULTPOPUP.as
 - New file: scripts/CHAMPIONCAGEPOPUP.as
 - New file: scripts/CHAMPIONCHAMBER.as
 - New file: scripts/CHAMPIONCHAMBERPOPUP.as
-- New file: scripts/CREEP.as
 - New file: scripts/ChatUI_fla/chat_window_box_10.as
-- *...and 27 more files*
+- New file: scripts/GUARDIANCHAMBERPOPUP_CLIP.as
+- New file: scripts/MISSIONS_INFO_CLIP.as
+- New file: scripts/POPUPSETTINGS.as
+- New file: scripts/STREAMLINESPEEDUP_CLIP.as
+- New file: scripts/UI_MISSIONMENU_CLIP.as
+- *...and 19 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -370,16 +362,10 @@ Removal of the String Decryptor class from the codebase.
 ### ✨ New Features/Content
 
 - New file: scripts/FBPROMO_711_CLIP.as
-- New file: scripts/GAME.as
-- New file: scripts/HATCHERYCCPOPUP.as
-- New file: scripts/LOGGER.as
-- New file: scripts/POWERUPS.as
-- New file: scripts/QUESTSPOPUP.as
 - New file: scripts/REINFORCEMENTS_CLIP.as
-- New file: scripts/SPRITES.as
 - New file: scripts/buttonReinforcement_CLIP.as
 - New file: scripts/popup_biggulp.as
-- *...and 2 more files*
+- New file: scripts/popup_whatsnew49.as
 
 ### 🏗️ Architecture Updates
 
@@ -412,16 +398,16 @@ Removal of the String Decryptor class from the codebase.
 ### ✨ New Features/Content
 
 - New file: scripts/BTOTEM.as
-- Added building: scripts/BUILDING27.as
-- Added creature: scripts/CREATURELOCKER.as
 - New file: scripts/DEFENSEEVENTPOPUP.as
 - New file: scripts/DEFENSEEVENTPOPUP_CLIP.as
-- New file: scripts/GAME.as
 - New file: scripts/NEXTWAVEBAR_CLIP.as
 - New file: scripts/ROUNDCOMPLETEPOPUP_CLIP.as
 - New file: scripts/SPECIALEVENT.as
-- New file: scripts/SPRITES.as
-- *...and 13 more files*
+- New file: scripts/UI_NEXTWAVE.as
+- New file: scripts/WMIROUNDCOMPLETE.as
+- New file: scripts/bubblepopupDownBuff.as
+- New file: scripts/bubblepopupDownBuff_CLIP.as
+- *...and 7 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -441,16 +427,11 @@ Removal of the String Decryptor class from the codebase.
 
 ---
 
-## ✨ Version v119.7 - New Features
+## 📈 Version v119.7 - Enhancements
 
 **Version:** v119.7
 **Date:** November 18, 2024
 **Changes:** +155 / -130 lines
-
-### ✨ New Features/Content
-
-- New file: scripts/CHAMPIONCHAMBER.as
-- Added Map Room feature: scripts/com/monsters/maproom_advanced/PopupInfoEnemy.as
 
 ### 🏗️ Architecture Updates
 
@@ -478,9 +459,7 @@ Removal of the String Decryptor class from the codebase.
 
 ### ✨ New Features/Content
 
-- Added creature: scripts/CREATURELOCKER.as
 - Added Inferno feature: scripts/CREEP_INFERNO.as
-- New file: scripts/WMATTACK.as
 - New file: scripts/WMIEXTENSIONPOPUP.as
 - New file: scripts/WMIEXTENSIONPOPUP_CLIP.as
 - New file: scripts/building126hit.as
@@ -503,18 +482,11 @@ Removal of the String Decryptor class from the codebase.
 
 ---
 
-## ✨ Version v120.22 - New Features
+## 🔧 Version v120.22 - Patches
 
 **Version:** v120.22
 **Date:** November 18, 2024
 **Changes:** +453 / -464 lines
-
-### ✨ New Features/Content
-
-- New file: scripts/GAME.as
-- New file: scripts/POPUPSETTINGS.as
-- New file: scripts/TUTORIALARROWMC.as
-- New file: scripts/popup_prefab_help.as
 
 ### 🏗️ Architecture Updates
 
@@ -534,15 +506,11 @@ Removal of the String Decryptor class from the codebase.
 
 ---
 
-## ✨ Version v120.23 - New Features
+## 📈 Version v120.23 - Enhancements
 
 **Version:** v120.23
 **Date:** November 18, 2024
 **Changes:** +84 / -63 lines
-
-### ✨ New Features/Content
-
-- New file: scripts/GAME.as
 
 ### 🏗️ Architecture Updates
 
@@ -601,7 +569,6 @@ Removal of the String Decryptor class from the codebase.
 
 ### ✨ New Features/Content
 
-- New file: scripts/CATAPULTPOPUP.as
 - New file: scripts/GAME.as
 - New file: scripts/POPUPSETTINGS.as
 - New file: scripts/TUTORIALARROWMC.as
@@ -673,8 +640,6 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- Added building: scripts/BUILDING27.as
-- Added building: scripts/BUILDING4.as
 - New file: scripts/CATAPULTPOPUP.as
 - New file: scripts/HOUSINGBUNKER.as
 - Added Inferno feature: scripts/INFERNOAPI.as
@@ -683,7 +648,9 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 - Added Inferno feature: scripts/INFERNOQUAKETOWER.as
 - Added Inferno feature: scripts/INFERNOYARDPROPS.as
 - Added Inferno feature: scripts/INFERNO_CANNON_TOWER.as
-- *...and 121 more files*
+- Added Inferno feature: scripts/INFERNO_DESCENT_POPUPS.as
+- Added Inferno feature: scripts/INFERNO_EMERGENCE_EVENT.as
+- *...and 113 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -733,14 +700,14 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 - Added Inferno feature: scripts/ForeignBaseInferno_CLIP.as
 - New file: scripts/MapViewDescent_Fog_Shroud.as
 - Added Inferno feature: scripts/PlayerBaseInferno_CLIP.as
-- New file: scripts/UI2.as
-- New file: scripts/UPDATES.as
 - Added Inferno feature: scripts/WMListViewItemInferno_CLIP.as
 - Added Inferno feature: scripts/WildMonsterBaseInferno_CLIP.as
 - Added Inferno feature: scripts/all_fla/workerIcon_Inferno_625.as
 - Added Inferno feature: scripts/com/monsters/ai/PROCESS_INFERNO1.as
-- New file: scripts/com/monsters/display/ImageCache.as
-- *...and 15 more files*
+- Added Inferno feature: scripts/com/monsters/maproom_inferno/views/DescentDebuffPopup.as
+- New file: scripts/descentDebuff_info_CLIP.as
+- New file: scripts/icon_costs_short.as
+- *...and 9 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -789,10 +756,8 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- Added building: scripts/BUILDING14.as
 - New file: scripts/HousingPopupMonster_CLIP.as
 - New file: scripts/OUTPOST_YARD_PROPS.as
-- New file: scripts/QUESTS.as
 - New file: scripts/YARD_PROPS.as
 - New file: scripts/popup_whatsnew52.as
 
@@ -869,17 +834,17 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- New file: scripts/CATAPULTPOPUP.as
 - New file: scripts/CarouselCategoryButton2.as
 - New file: scripts/ChampionChamberFrozen.as
 - New file: scripts/CreepBase.as
 - New file: scripts/EventsBar_CLIP.as
 - New file: scripts/FACEBOOK_NCP_CLIP.as
-- New file: scripts/HATCHERY.as
-- New file: scripts/HATCHERYCC.as
 - New file: scripts/HatcheryCCMonsterIcon_CLIP.as
 - New file: scripts/HatcheryMonsterIcon_CLIP.as
-- *...and 187 more files*
+- New file: scripts/HousingPopupMonster_CLIP.as
+- Added Inferno feature: scripts/INFERNO_ASCENSION_POPUP.as
+- Added Inferno feature: scripts/InfernoTransferMonster_CLIP.as
+- *...and 162 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -943,17 +908,16 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- New file: scripts/BASE.as
-- New file: scripts/BFOUNDATION.as
 - New file: scripts/MAP.as
-- New file: scripts/YARD_PROPS.as
 - New file: scripts/com/monsters/frontPage/messages/events/hellRaisers/HellRaisersEndMessage.as
 - New file: scripts/com/monsters/frontPage/messages/events/hellRaisers/HellRaisersPromoMessage1.as
 - New file: scripts/com/monsters/frontPage/messages/events/hellRaisers/HellRaisersPromoMessage2.as
 - New file: scripts/com/monsters/frontPage/messages/events/hellRaisers/HellRaisersPromoMessage3.as
 - New file: scripts/com/monsters/frontPage/messages/events/hellRaisers/HellRaisersRewardMessage.as
 - New file: scripts/com/monsters/frontPage/messages/events/hellRaisers/HellRaisersStartMessage.as
-- *...and 7 more files*
+- New file: scripts/com/monsters/replayableEvents/monsterInvasion/hellRaisers/HellRaisers.as
+- New file: scripts/com/monsters/rewarding/rewards/EarlyBuildingAccess.as
+- New file: scripts/com/monsters/rewarding/rewards/magmaTowers/UnlockMagmaTowers.as
 
 ### 🏗️ Architecture Updates
 
@@ -995,7 +959,7 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 - New file: scripts/BasePlannerPopup_ExplorerHeader.as
 - New file: scripts/BasePlannerPopup_ExplorerItem_Category.as
 - New file: scripts/BasePlannerPopup_ExplorerItem_Type.as
-- *...and 73 more files*
+- *...and 61 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -1028,17 +992,17 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- Added building: scripts/BUILDING11.as
-- Added Inferno feature: scripts/INFERNOYARDPROPS.as
 - New file: scripts/KrallenHUD_CLIP.as
-- New file: scripts/MAPBG.as
-- New file: scripts/OUTPOST_YARD_PROPS.as
-- New file: scripts/SPRITES.as
-- New file: scripts/YARD_PROPS.as
-- New file: scripts/bubblepopupDownBuff.as
 - New file: scripts/com/adobe/crypto/MD5.as
 - New file: scripts/com/adobe/utils/IntUtil.as
-- *...and 39 more files*
+- New file: scripts/com/cc/tests/ABTest.as
+- New file: scripts/com/monsters/components/abilities/ProximityLootBuff.as
+- New file: scripts/com/monsters/display/CreepSkinManager.as
+- New file: scripts/com/monsters/frontPage/messages/DebugMessage.as
+- New file: scripts/com/monsters/frontPage/messages/promotions/Promo01DaveClub.as
+- New file: scripts/com/monsters/kingOfTheHill/messages/KOTHEndMessage.as
+- New file: scripts/com/monsters/kingOfTheHill/messages/KOTHQuota1MetMessage.as
+- *...and 24 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -1082,17 +1046,13 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- New file: scripts/BUY.as
 - Added creature: scripts/CREATUREBUTTON.as
-- Added creature: scripts/CREATURES.as
-- New file: scripts/CREEPS.as
-- New file: scripts/GLOBAL.as
 - New file: scripts/all_fla/subjectBtn_43.as
 - New file: scripts/building135hit.as
 - New file: scripts/com/monsters/autobanking/AutoBankManager.as
-- New file: scripts/com/monsters/debug/Console.as
-- New file: scripts/com/monsters/debug/ConsoleCommands.as
-- *...and 13 more files*
+- New file: scripts/com/monsters/events/CreepEvent.as
+- New file: scripts/com/monsters/subscriptions/ui/controlPanel/SubscriptionCancelPopup.as
+- New file: scripts/subscriptions_cancelconfirm_popup.as
 
 ### 🏗️ Architecture Updates
 
@@ -1127,8 +1087,6 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 - New file: scripts/all_fla/GuardianCagePopup_HPBarBar_262.as
 - New file: scripts/all_fla/levelBtn_363.as
 - New file: scripts/all_fla/statusBtn_362.as
-- New file: scripts/all_fla/unreadBtn_44.as
-- New file: scripts/com/monsters/frontPage/FrontPageLibrary.as
 - New file: scripts/com/monsters/frontPage/messages/news/News06TownHallLevel10.as
 
 ### 🏗️ Architecture Updates
@@ -1165,7 +1123,6 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 
 ### ✨ New Features/Content
 
-- New file: scripts/BTOTEM.as
 - New file: scripts/BlackSpurtzCannon.as
 - New file: scripts/EventRewardRibbon.as
 - New file: scripts/HatcheryBase.as
@@ -1175,7 +1132,8 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 - New file: scripts/RewardRibbon.as
 - New file: scripts/SpurtzCannon.as
 - New file: scripts/SpurtzCannonHit.as
-- *...and 61 more files*
+- New file: scripts/com/monsters/configs/BYMConfig.as
+- *...and 54 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -1212,16 +1170,11 @@ This update introduces the Inferno feature to Backyard Monsters, a major gamepla
 ### ✨ New Features/Content
 
 - New file: scripts/ReplayableEventCountdownUI.as
-- New file: scripts/com/monsters/configs/BYMConfig.as
-- New file: scripts/com/monsters/frontPage/categories/ReplayableEventsCategory.as
-- New file: scripts/com/monsters/frontPage/messages/Message.as
 - New file: scripts/com/monsters/inventory/InventoryManager.as
 - New file: scripts/com/monsters/replayableEvents/ReplayableEventCountdown.as
-- New file: scripts/com/monsters/replayableEvents/ReplayableEventUI.as
-- New file: scripts/com/monsters/replayableEvents/attackDefend/brukkargWar/messages/SpurtzCannonRewardMessage1.as
-- New file: scripts/com/monsters/replayableEvents/attackDefend/brukkargWar/messages/SpurtzCannonRewardMessage2.as
 - New file: scripts/com/monsters/replayableEvents/looting/wotc/messages/WOTCPromoMessage.as
-- *...and 4 more files*
+- New file: scripts/com/monsters/replayableEvents/looting/wotc/quotas/WOTCQuota.as
+- New file: scripts/com/monsters/replayableEvents/looting/wotc/rewards/KorathReward.as
 
 ### 🏗️ Architecture Updates
 
@@ -1275,7 +1228,7 @@ Introduction of Map Room 3, expanding the world map functionality.
 - Added Map Room feature: scripts/MapRoom3BookmarksPopup.as
 - Added Map Room feature: scripts/MapRoom3BookmarksPopupItemDisplay.as
 - Added Map Room feature: scripts/MapRoom3ExpandableFrame.as
-- *...and 209 more files*
+- *...and 204 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -1315,15 +1268,11 @@ Introduction of Map Room 3, expanding the world map functionality.
 
 ---
 
-## ✨ Version v128.5559 - New Features
+## 📈 Version v128.5559 - Enhancements
 
 **Version:** v128.5559
 **Date:** November 18, 2024
 **Changes:** +69 / -49 lines
-
-### ✨ New Features/Content
-
-- Added Map Room feature: scripts/com/monsters/maproom3/MapRoom3Window.as
 
 ### 🏗️ Architecture Updates
 
@@ -1385,7 +1334,7 @@ Introduction of Map Room 3, expanding the world map functionality.
 - New file: scripts/com/monsters/event_store/EventStoreItemSelectedPopup.as
 - New file: scripts/com/monsters/event_store/EventStorePopup.as
 - New file: scripts/com/monsters/event_store/EventStorePrize.as
-- *...and 12 more files*
+- *...and 9 more files*
 
 ### 🏗️ Architecture Updates
 
@@ -1431,15 +1380,11 @@ Introduction of Map Room 3, expanding the world map functionality.
 
 ---
 
-## ✨ Version v128.5647 - New Features
+## 📈 Version v128.5647 - Enhancements
 
 **Version:** v128.5647
 **Date:** November 18, 2024
 **Changes:** +71 / -44 lines
-
-### ✨ New Features/Content
-
-- New file: scripts/BFOUNDATION.as
 
 ### 🏗️ Architecture Updates
 
@@ -1490,10 +1435,19 @@ This is the last version with unobfuscated source code. Subsequent versions use 
 **Date:** November 18, 2024
 **Changes:** +21 / -0 lines
 
+*Commit: `c607211a`*
+
+---
+
+## Add comprehensive CHANGELOG.md with commit-by-commit analysis
+
+**Date:** February 11, 2026
+**Changes:** +1499 / -0 lines
+
 ### ✨ New Features/Content
 
-- New file: README.md
+- New file: CHANGELOG.md
 
-*Commit: `c607211a`*
+*Commit: `c85ab227`*
 
 ---
